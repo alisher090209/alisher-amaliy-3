@@ -1,0 +1,314 @@
+@media only screen and (max-width:768px) {
+    .container{
+        max-width: 90%;
+    }
+    .nav__logo a{
+     display: none;
+    }
+    .png .fa-bars{
+        display: block;
+        position: fixed;
+    }
+   
+    .png img{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-right: 20px;
+    }
+    .png .fa-bars{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+        padding: 4.8rem 0;
+        height: auto;
+        background-image: url(/img/banner-bg.png); 
+    }
+    .get__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.8rem;
+    }
+    .our__img img{
+        width: 100%;
+    }
+    
+.our__img:hover .add__hover{
+    width: 100%;
+    height: 97.1%;
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+    }
+    .about__content{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+    }
+    .make{
+        width:100%;
+        height: 250px;
+        border: 1px solid black;
+        margin: 0rem;
+    }
+    .best__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .best__item h2{
+        font-family: var(--monster);
+        margin-top: .5rem;
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+    .best__item p{
+        font-family: var(--monster);
+        font-size: 1rem;
+    }
+    .best__item img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left:0px;
+        margin-top : 20px;
+    }
+    .best__input input{
+        width: 50%;
+    }
+    .deno{
+        width: 100%;
+        padding: 4.8rem 0;
+        height:auto;
+        background-color: black;
+    }
+    .deno__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .free__content{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .here__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input input{
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 50px;
+        margin-left:0%;
+    }
+    .input textarea{
+        width: 100%;
+        margin-left:0%;
+    }
+    .input input[type="submit"]{
+        width: 50%;
+        margin-left: -10%;
+    }
+}
+
+/* 2 */
+@media only screen and (max-width:468px) {
+    .container{
+        max-width: 90%;
+    }
+    .nav__logo a{
+     display: none;
+    }
+    .png img{
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-right: 20px;
+    }
+    .png .fa-bars{
+        display: block;
+    }
+    .banner{
+        width: 100%;
+        padding: 4.8rem 0;
+        height: auto;
+        background-image: url(/img/banner-bg.png); 
+    }
+    .get__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.8rem;
+    }
+    .our__img img{
+        width: 100%;
+    }.about__content{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+    }
+    .make{
+        width:100%;
+        height: 250px;
+        border: 1px solid black;
+        margin: 0rem;
+    }
+    .best__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .best{
+        width: 100%;
+        height: 570px;
+        border: 6px solid rgb(0, 0, 0);
+    }
+    .best__item img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left:0px;
+        margin-top : 20px;
+    }
+    .best__input input{
+        width: 50%;
+    }
+    .deno{
+        width: 100%;
+        padding: 4.8rem 0;
+        height:auto;
+        background-color: black;
+    }
+    .deno__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .free__content{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .here__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input input{
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 50px;
+        margin-left:0%;
+    }
+    .input textarea{
+        width: 100%;
+        margin-left:0%;
+    }
+    .input input[type="submit"]{
+        width: 50%;
+        margin-left: 25%;
+    }
+}
+
+/* 3 */
+@media only screen and (max-width:368px) {
+    .container{
+        max-width: 90%;
+    }
+    .nav__logo a{
+     display: none;
+    }
+    .png img{
+        margin-left: 1px;
+        margin-right: 1px;
+        margin-right: 1px;
+    }
+    .png .fa-bars{
+        font-size: 1.5rem;
+        margin-left:120px ;
+        color: chartreuse;
+        display: block;
+        position: fixed;
+    }
+    .banner{
+        width: 100%;
+        padding: 4.8rem 0;
+        height: auto;
+        background-image: url(/img/banner-bg.png); 
+    }
+    .get__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .our__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        gap: 2.8rem;
+    }
+    .our__img img{
+        width: 100%;
+    }.about__content{
+        display: grid;
+        grid-template-columns:repeat(1,1fr);
+        gap: 1rem;
+    }
+    .make{
+        width:100%;
+        height: 250px;
+        border: 1px solid black;
+        margin: 0rem;
+    }
+    .best__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .best{
+        width: 100%;
+        height: 500px;
+        border: 6px solid rgb(0, 0, 0);
+    }
+    .best__item img{
+        width: 100%;
+        height: 100%;
+        display: block;
+        margin-left:0px;
+        margin-top : 20px;
+    }
+    .best__input input{
+        width: 50%;
+    }
+    .deno{
+        width: 100%;
+        padding: 4.8rem 0;
+        height:auto;
+        background-color: black;
+    }
+    .deno__content{
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .free__content{
+        display: grid;
+        grid-template-columns: 100%;
+    }
+    .here__content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .input input{
+        margin-bottom: 1rem;
+        width: 100%;
+        height: 50px;
+        margin-left:0%;
+    }
+    .input textarea{
+        width: 100%;
+        margin-left:0%;
+    }
+    .input input[type="submit"]{
+        width: 100%;
+        margin-left: 0%;
+    }
+}
